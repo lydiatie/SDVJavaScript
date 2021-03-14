@@ -11,7 +11,9 @@ console.log(typeof country);
 console.log(city);
 console.log(typeof postalCode);
 
+//Datatype
 let isIsland = true
+//Declared variable but not initialized
 let language
 
 console.log(typeof isIsland);
