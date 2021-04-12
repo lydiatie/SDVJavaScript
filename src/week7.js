@@ -26,20 +26,20 @@
 // }
 
 
-// for loop and if else statement in es5
-// function oddOrEven(x) {
-//     let sum = 0;
-//     for(let num = 0; num < x.length; num++) {
-//         sum += x[num]
-//         if (sum%2 === 0) {
-//             return 'even'
-//         } else {
-//             return 'odd'
-//         }
-//     }
-// }
+//for loop and if else statement in es5
+function oddOrEven(x) {
+    let sum = 0;
+    for(let num = 0; num < x.length; num++) {
+        sum += x[num]
+        if (sum%2 === 0) {
+            return 'even'
+        } else {
+            return 'odd'
+        }
+    }
+}
 
-// console.log(oddOrEven([1, 2, 3]))
+console.log(oddOrEven([1, 2, 3]))
 
 // arr = ['9.4', '4.2'] change string to number
 
@@ -87,18 +87,18 @@
 
 
 // reverse string
-function gnirts(x) {
-    let arr = x.split('')
+// function gnirts(x) {
+//     let arr = x.split('')
  
 
-    let newArr = arr.reverse()
+//     let newArr = arr.reverse()
 
 
-    let joinNewArr = newArr.join('')
+//     let joinNewArr = newArr.join('')
  
 
-    return joinNewArr
-}
+//     return joinNewArr
+// }
 
 
-console.log(gnirts('Lydia'))
+// console.log(gnirts('Lydia'))
