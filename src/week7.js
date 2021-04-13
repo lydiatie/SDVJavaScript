@@ -2,6 +2,7 @@
 
 // function newArr(a, b) {
 //     let arrOne = [a, b];
+//     let numbers = arrOne.filter(numbersOnly)
 //     return arrOne;
 // }
 
@@ -9,8 +10,8 @@
 
 // let newArr = (a,b) => [a,b];
 
-// let newArr = (... a) => a
-// console.log(typeof newArr)
+// let arr = (... a) => a
+// let numbers = arr.filter(numbersOnly);
 // console.log(newArr(1, 'Lydia', 3, 4, 5, 6, 7));
 
 // let arrTwo = ['Lydia', 4, 5, 6, 7, 8, 9, 10, 11]
@@ -27,19 +28,19 @@
 
 
 //for loop and if else statement in es5
-function oddOrEven(x) {
-    let sum = 0;
-    for(let num = 0; num < x.length; num++) {
-        sum += x[num]
-        if (sum%2 === 0) {
-            return 'even'
-        } else {
-            return 'odd'
-        }
-    }
-}
+// function oddOrEven(x) {
+//     let sum = 0;
+//     for(let num = 0; num < x.length; num++) {
+//         sum += x[num]
+//         if (sum%2 === 0) {
+//             return 'even'
+//         } else {
+//             return 'odd'
+//         }
+//     }
+// }
 
-console.log(oddOrEven([1, 2, 3]))
+// console.log(oddOrEven([1, 2, 3]))
 
 // arr = ['9.4', '4.2'] change string to number
 
